@@ -6,8 +6,22 @@
 pragma solidity 0.8.18;
 
 contract SimpleStorage {
-    uint256 favoriteNumber = 88;
-    
+
+    uint256 myFavoriteNumber = 88;
+
+    // uint256[] listOfFavoriteNumbers;
+
+    struct Person {
+        uint256 favoriteNumber;
+        string name;
+    }
+
+    Person public pat = Person({
+        favoriteNumber: 7,
+        name: "Pat"
+    });
+
+
     function store(uint256 $favoriteNumber) public {
         favoriteNumber = $favoriteNumber;
     }
