@@ -16,6 +16,8 @@ contract SimpleStorage {
         string name;
     }
 
+    Person[] public listOfPeople;
+
     Person public pat = Person({
         favoriteNumber: 7,
         name: "Pat"
