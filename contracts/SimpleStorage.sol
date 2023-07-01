@@ -3,7 +3,7 @@
 // -*- coding: utf-8 -*-
 // @Date    : 2023-06-28 14:07:19
 // @Author  : Dahir Muhammad Dahir (dahirmuhammad3@gmail.com)
-pragma solidity 0.8.18;
+pragma solidity ^0.8.18;
 
 contract SimpleStorage {
 
@@ -26,7 +26,7 @@ contract SimpleStorage {
     });
 
 
-    function store(uint256 _favoriteNumber) public {
+    function store(uint256 _favoriteNumber) public virtual {
         myFavoriteNumber = _favoriteNumber;
     }
 
