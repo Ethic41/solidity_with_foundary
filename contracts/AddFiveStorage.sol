@@ -3,7 +3,7 @@
 // -*- coding: utf-8 -*-
 // @Date    : 2023-07-01 10:51:55
 // @Author  : Dahir Muhammad Dahir (dahirmuhammad3@gmail.com)
-pragma solidity 0.8.18;
+pragma solidity ^0.8.18;
 
 import {SimpleStorage} from "./SimpleStorage.sol";
 
